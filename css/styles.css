@@ -1,0 +1,59 @@
+#p1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+
+#b1{
+	text-align: center;
+	font-color: black;
+}
+
+#body{
+	background-image: url("../media/img-inicio.jpg");
+	background-color: #cccccc;
+}
+
+#bt{
+	border-radius: 100px;
+	color: grey;
+	font-color: black;
+	font-size: 30px;
+}
+
+img{
+	border-radius: 150px;
+	float: right;
+	border-style: solid;
+	border-color: black;
+	width: 500px;
+}
+
+#izq{
+	float: left;
+	
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	padding: 20px;
+
+}
+
+.grid-container > div{
+	padding: 20px 0;
+}
+
+p{
+	text-align: justify;
+}
+
+#init{
+	border-radius: 150px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	width: 200px;
+}
+
